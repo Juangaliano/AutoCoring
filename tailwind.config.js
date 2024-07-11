@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
       },
+      height: {
+        'custom': 'calc(100vh - 96px)',
+      },
     },
   },
   plugins: [],

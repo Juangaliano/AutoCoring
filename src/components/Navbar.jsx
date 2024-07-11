@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <div className="relative flex items-center justify-between px-2 py-4 mx-auto bg-white h-28 max-full sm:px-6 lg:px-8">
+    <div className=" top-0 w-full z-50 bg-[#f6f6f6] flex items-center justify-between px-2 py-2 mx-auto h-24 max-full sm:px-6 lg:px-8">
       <div className="flex-shrink-0">
         <img className="block w-auto h-8 cursor-pointer" src="/logosvg.svg" alt="Logo"  />
       </div>
