@@ -129,13 +129,13 @@ function Sliders() {
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 6000);
+    }, 8000);
 
     return () => clearInterval(interval);
   }, [currentIndex]);
 
   return (
-    <div className="h-screen w-full text-[#f6f6f6] relative group">
+    <div className="h-[calc(100vh+96px)] w-full text-[#f6f6f6] relative group ">
       {slides.map((slide, index) => (
         <div
           key={index}
