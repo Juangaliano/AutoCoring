@@ -1,4 +1,3 @@
-
 import Sliders from "./Sliders";
 
 function Inicio() {
@@ -32,23 +31,57 @@ function Inicio() {
         <div className="flex flex-col items-start justify-center h-full m-auto font-normal w-90px">
           <h2 className="w-[50%] text-start mb-4 text-3xl leading-normal">
             Desarrollamos{" "}
-            <strong className="bg-[#91C4FE] font-normal text-[#374649]">
+            <strong className="bg-colorPrimario text-[#f6f6f6] font-semibold">
               estrategias inteligentes de gestión empresarial
             </strong>{" "}
             adaptadas a las necesidades específicas de tu compañía.
           </h2>
           <input
             type="button"
-            className="bg-[#91C4FE] text-[#374649] h-auto w-auto p-3 cursor-pointer rounded-full hover:scale-105 hover:bg-[#374649] hover:text-[#f6f6f6]"
+            className="bg-[#074CA6] text-[#f6f6f6] h-auto w-auto p-3 cursor-pointer rounded-full hover:scale-105 hover:bg-[#374649] hover:text-[#f6f6f6]"
             value={"Agenda una llamada"}
           />
         </div>
       </section>
       <section className=" w-full h-[100vh]">
-        <div className="bg-[#91C4FE] w-full h-[25vh] flex flex-col items-center shadow-xl">
-          <p className="text-3xl w-[60%] font-bold text-[#f6f6f6] pt-14 text-center">
+        <div className="bg-[#074CA6] w-full h-[15vh] flex flex-col items-center justify-center shadow-xl">
+          <p className="text-3xl w-[60%] font-bold text-[#f6f6f6] text-center">
             Descubre todo lo que AutoCoring tiene para ofrecer
           </p>
+        </div>
+        <div className="flex flex-row gap-3 m-auto mt-20 w-90px">
+          <div className="w-[25%] h-[350px] py-10 gap-6 flex flex-col items-center border-2  px-3 text-center shadow-lg">
+            <h3 className="text-xl font-bold ">ISO 9001/2015</h3>
+            <img src="/Innovadores.svg" alt="" />
+            <span className="text-ellipsis">
+              Estandarizacion y simplificacion mediante la implementacion de
+              calida ISO 9001/2015.
+            </span>
+          </div>
+          <div className="w-[25%] h-[350px] py-10 gap-6 flex flex-col items-center border-2  px-3 text-center shadow-lg">
+            <h3 className="text-xl font-bold ">100% Enfocados</h3>
+            <img src="/Enfocados.svg" alt="" />
+            <span>
+              Enfocados en la obtimizacion de procesos industriales y servicios,
+              maximizando la rentabilidad de las empresas.
+            </span>
+          </div>
+          <div className="w-[25%] h-[350px] py-10 gap-6 flex flex-col items-center border-2  px-3 text-center shadow-lg">
+            <h3 className="text-xl font-bold ">Capacitacion</h3>
+            <img src="/Capacitados.svg" alt="" />
+            <span>
+              Capacitacion sobre el desarrollo de herraminetas y habilidades
+              utiles para la produccion, tecnologias IoT y robotica.
+            </span>
+          </div>
+          <div className="w-[25%] h-[350px] py-10 gap-6 flex flex-col items-center border-2  px-3 text-center shadow-lg">
+            <h3 className="text-xl font-bold ">Innovadores</h3>
+            <img src="/Estrategas.svg" alt="" />
+            <span>
+              Ofrecemos soluciones innovadoras para cualquier tipo de empresa u
+              organización, no importa cuál sea su rubro.
+            </span>
+          </div>
         </div>
       </section>
     </>

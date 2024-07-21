@@ -156,7 +156,7 @@ function Sliders() {
               </p>
               <input
                 type="button"
-                className="bg-[#91C4FE] mt-6 text-[#374649] h-auto w-auto p-2 cursor-pointer rounded-full hover:scale-105 hover:bg-[#374649] hover:text-[#f6f6f6]"
+                className="bg-[#074CA6] mt-6 text-[#f6f6f6] h-auto w-auto p-2 cursor-pointer rounded-full hover:scale-105 hover:bg-[#374649] hover:text-[#f6f6f6]"
                 value="Contáctanos"
               />
             </div>
