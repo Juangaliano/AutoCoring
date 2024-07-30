@@ -65,6 +65,7 @@ import Navbar from "./components/Navbar";
 import Nosotros from "./Nosotros";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Inicio from "./components/Inicio";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -75,6 +76,7 @@ function App() {
           <Route path="/" element={<Inicio />} />
           <Route path="/nosotros" element={<Nosotros />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );

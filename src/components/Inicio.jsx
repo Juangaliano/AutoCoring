@@ -1,4 +1,4 @@
-import Formulario from "./Formulario";
+import Contacto from "./Contacto";
 import Sliders from "./Sliders";
 
 function Inicio() {
@@ -52,11 +52,11 @@ function Inicio() {
         </div>
         <div className="flex flex-row gap-3 m-auto mt-20 w-90px">
           <div className="w-[25%] h-[350px] py-10 gap-6 flex flex-col items-center border-2  px-3 text-center shadow-lg">
-            <h3 className="text-xl font-bold ">ISO 9001/2015</h3>
+            <h3 className="text-xl font-bold ">ISO 9001:2015</h3>
             <img src="/Innovadores.svg" alt="" />
             <span className="text-ellipsis">
               Estandarización y simplificación mediante la implementación de la
-              norma ISO 9001/2015.
+              norma ISO 9001:2015.
             </span>
           </div>
           <div className="w-[25%] h-[350px] py-10 gap-6 flex flex-col items-center border-2  px-3 text-center shadow-lg">
@@ -80,32 +80,12 @@ function Inicio() {
             <img src="/Estrategas.svg" alt="" />
             <span>
               Ofrecemos soluciones innovadoras para cualquier tipo de empresa u
-              organización, no importa cuál sea su rubro.
+              organización, sin importar cuál sea su rubro.
             </span>
           </div>
         </div>
       </section>
-      <section id="secContacto">
-        <div className="flex flex-row h-[80vh] m-auto w-90px">
-          <div className="w-[40%] flex flex-col items-start gap-8 p-8">
-            <h4 className="text-3xl font-bold">Agenda una reunión</h4>
-            <p>
-              Completa el siguiente formulario de contacto y un miembro de
-              nuestro equipo se pondrá en contacto contigo en breve, para
-              discutir cómo podemos ayudarte.
-            </p>
-            <img
-              src="/logo.svg"
-              alt=""
-              className="block w-auto h-8 cursor-pointer"
-            />
-          </div>
-
-          <div className="p-8 w-[60%]">
-            <Formulario />
-          </div>
-        </div>
-      </section>
+      <Contacto />
     </>
   );
 }

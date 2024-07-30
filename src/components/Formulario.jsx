@@ -17,10 +17,12 @@ function Formulario() {
     console.log("Mensaje:", mensaje);
   };
 
+  const handleNombreChange = (e) => setNombre(e.target.value);
+  const handleEmailChange = (e) => setEmail(e.target.value);
+  const handleTelefonoChange = (e) => setTelefono(e.target.value);
+  const handleEmpresaChange = (e) => setEmpresa(e.target.value);
+  const handleMensajeChange = (e) => setMensaje(e.target.value);
 
-
-
-  
   return (
     <form
       action=""
@@ -28,38 +30,38 @@ function Formulario() {
       onSubmit={handleSubmit}
     >
       <h4 className="text-[#f6f6f6] font-bold text-start pt-4 px-4">
-        Dejanos tus datos:
+      Déjanos tus datos:
       </h4>
       <div className="flex flex-col gap-5 p-4">
         <Input
           id="nombre"
           placeholder="Nombre"
           value={nombre}
-          onChange={(e) => setNombre(e.target.value)}
+          onChange={handleNombreChange}
         />
         <Input
           id="email"
           placeholder="Email"
           value={email}
-          onChange={(e) => setEmail(e.target.value)}
+          onChange={handleEmailChange}
         />
         <Input
           id="telefono"
-          placeholder="Telefono"
+          placeholder="Teléfono"
           value={telefono}
-          onChange={(e) => setTelefono(e.target.value)}
+          onChange={handleTelefonoChange}
         />
         <Input
           id="empresa"
           placeholder="Empresa"
           value={empresa}
-          onChange={(e) => setEmpresa(e.target.value)}
+          onChange={handleEmpresaChange}
         />
         <textarea
           id="mensaje"
           placeholder="Mensaje"
           value={mensaje}
-          onChange={(e) => setMensaje(e.target.value)}
+          onChange={handleMensajeChange}
           className="px-3 py-2 h-[100px] rounded-xl text-[13px]"
         />
       </div>
@@ -74,3 +76,4 @@ function Formulario() {
 }
 
 export default Formulario;
+

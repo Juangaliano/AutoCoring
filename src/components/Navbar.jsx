@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className=" top-0 w-full z-50 bg-[#f6f6f6]  shadow-2xl fixed ">
+    <div className=" top-0 w-full z-50 bg-[#f6f6f6] shadow-sm fixed ">
       <div className="flex items-center justify-between h-24 px-2 py-2 m-auto mx-auto w-90px max-full sm:px-6 lg:px-8">
         <div className="flex-shrink-0">
           <Link to="/">
