@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="flex flex-row items-center justify-between p-10 m-auto w-90px">
           <div className="w-[30%] flex flex-col gap-8">
             <div>
-              <img src="/logo34.svg" alt="" className="w-[200px]" />
+              <img src="/logosvg84.svg" alt="" className="w-[200px]" />
             </div>
             <div>
               Somos una consultora integral, brindamos soluciones completas de

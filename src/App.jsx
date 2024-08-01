@@ -66,6 +66,7 @@ import Nosotros from "./Nosotros";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Inicio from "./components/Inicio";
 import Footer from "./components/Footer";
+import Servicios from "./Servicios";
 
 function App() {
   return (
@@ -75,6 +76,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Inicio />} />
           <Route path="/nosotros" element={<Nosotros />} />
+          <Route path="/servicios" element={<Servicios />} />
         </Routes>
         <Footer />
       </Router>
