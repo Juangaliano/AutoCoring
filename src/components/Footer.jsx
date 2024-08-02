@@ -9,13 +9,11 @@ import {
 export default function Footer() {
   return (
     <>
-    <section className="bg-[#374649] text-[#f6f6f6]">
-        <div className="flex flex-row items-center justify-between p-10 m-auto w-90px">
-          <div className="w-[30%] flex flex-col gap-8">
-            <div>
-              <img src="/logosvg84.svg" alt="" className="w-[200px]" />
-            </div>
-            <div>
+    <section className="bg-[#000] text-[#f6f6f6]">
+        <div className="flex flex-col items-center justify-between gap-8 py-10 m-auto md:p-10 md:flex-row w-90px">
+          <div className="w-full md:w-[30%] flex flex-col gap-8">
+            
+            <div className="text-[#f6f6f6]">
               Somos una consultora integral, brindamos soluciones completas de
               gestión de negocios.
             </div>
@@ -37,7 +35,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="w-[30%] flex flex-col gap-8">
+          <div className="w-full md:w-[30%] flex flex-col gap-8">
             <div>
               <a
                 href="mailto:example@example.com"
@@ -65,7 +63,7 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          <div className="w-[30%]">
+          <div className="w-full md:w-[30%]">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54343.37685950742!2d-63.97845418914892!3d-31.64860363515374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432cafff1f1cec1%3A0xf370c1a41d5322ac!2zUsOtbyBTZWd1bmRvLCBDw7NyZG9iYQ!5e0!3m2!1ses!2sar!4v1722305973951!5m2!1ses!2sar"
               width="100%"

@@ -133,31 +133,31 @@ function Nosotros() {
         </div>
       </div> */}
 
-<div className="mt-[96px] bg-colorPrimario text-center h-[100px] flex flex-col justify-center items-center">
-      <h1 className="text-3xl font-bold text-white">Nosotros</h1>
+      <div className="mt-[96px] bg-colorPrimario text-center h-[100px] flex flex-col justify-center items-center">
+        <h1 className="text-3xl font-bold text-white">Nosotros</h1>
       </div>
-      <div className="flex max-w-[1224px] flex-col items-center justify-center gap-5 py-20 px-5 m-auto text-center w-90px">
-        <h1 className="text-[#374649] text-3xl font-bold">
+      <div className="flex max-w-[1224px] flex-col items-center justify-center w-90px gap-5 py-20 px-5 m-auto text-center ">
+        <h1 className="text-[#374649] text-3xl font-bold ">
           ¿Por qué elegir a AutoCoring?
         </h1>
-        <p>
+        <p className="text-justify md:text-center">
           En AutoCoring, nos enfocamos en cumplir con los requerimientos de
-          nuestros clientes y fomentar el desarrollo sostenible
+          nuestros clientes y fomentar el desarrollo sostenible.
         </p>
-        <p>
+        <p className="text-justify md:text-center">
           Promovemos una gestión por procesos estratégica, centrada en las
           personas y la calidad, con un firme compromiso con la Mejora Continua
           y el triple impacto.
         </p>
-        <p>
+        <p className="text-justify md:text-center">
           Nuestras soluciones integrales en Management, Gestión, Tecnología y
           Liderazgo están diseñadas para impulsar a las organizaciones hacia una
-          mejora constante y sostenible.
+          mejora constante y duradera.
         </p>
       </div>
 
-      <div className="flex flex-row gap-6 py-20 m-auto w-90px">
-        <div className="rounded-3xl w-[50%] border p-12 gap-5 flex flex-col h-auto shadow-xl bg-white">
+      <div className="flex flex-col gap-6 m-auto md:py-20 md:flex-row w-90px">
+        <div className="rounded-3xl w-full md:w-[50%] border p-8 gap-5 flex flex-col h-auto shadow-xl bg-white">
           <h2 className="text-3xl font-bold text-[#074CA6]">Nuestra Visión</h2>
           <p>
             Creemos en una{" "}
@@ -182,8 +182,8 @@ function Nosotros() {
             activamente en el desarrollo de nuevos proyectos.
           </p>
         </div>
-        <div className="w-[50%] gap-5 flex flex-col">
-          <div className="flex flex-col w-full gap-5 p-12 bg-white border shadow-xl rounded-3xl">
+        <div className="w-full md:w-[50%] gap-5 flex flex-col">
+          <div className="flex flex-col w-full gap-5 p-8 bg-white border shadow-xl rounded-3xl">
             <h2 className="text-3xl font-bold text-[#074CA6]">
               Nuestra Misión
             </h2>
@@ -198,7 +198,7 @@ function Nosotros() {
               <strong>triple impacto</strong>.
             </p>
           </div>
-          <div className="flex flex-col w-full gap-5 p-12 bg-white border shadow-xl rounded-3xl">
+          <div className="flex flex-col w-full gap-5 p-8 bg-white border shadow-xl rounded-3xl">
             <h2 className="text-3xl font-bold text-[#074CA6]">
               Nuestros Valores
             </h2>
@@ -214,7 +214,7 @@ function Nosotros() {
         </div>
       </div>
       <div className="py-20 m-auto mb-12 text-center w-90px">
-        <p className="italic text-xl text-gray-500 w-[80%] m-auto mb-5 leading-relaxed ">
+        <p className="italic text-xl text-gray-500 md:w-[80%] m-auto mb-5 leading-relaxed ">
           &quot; Cada acción cuenta y juntos podemos hacer la diferencia. Por
           esta razón, estamos comprometidos con los Objetivos de Desarrollo
           Sostenible, alineando nuestras prácticas de triple impacto con estos

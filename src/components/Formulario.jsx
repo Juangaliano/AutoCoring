@@ -26,10 +26,10 @@ function Formulario() {
   return (
     <form
       action=""
-      className="w-full h-full bg-[#374649] rounded-2xl"
+      className="w-full   h-full bg-[#374649] rounded-2xl py-4 md:pt-[0px] "
       onSubmit={handleSubmit}
     >
-      <h4 className="text-[#f6f6f6] font-bold text-start pt-4 px-4">
+      <h4 className="text-[#f6f6f6] font-bold text-start md:pt-4  px-4">
       Déjanos tus datos:
       </h4>
       <div className="flex flex-col gap-5 p-4">

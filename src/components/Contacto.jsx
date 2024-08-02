@@ -1,11 +1,11 @@
 import Formulario from "./Formulario";
 
 function Contacto() {
-  return (
-    <section id="secContacto">
-      <div className="flex flex-row h-[80vh] m-auto w-90px">
-        <div className="w-[40%] flex flex-col items-start gap-8 p-8">
-          <h4 className="text-3xl font-bold">Agenda una reunión</h4>
+  return (  
+    <section id="secContacto" className="bg-gray-200">
+      <div className="flex flex-col md:flex-row h-auto md:h-[80vh] m-auto w-90px">
+        <div className="w-full md:w-[40%] flex flex-col items-start gap-8 py-8 md:p-8">
+          <h4 className="text-2xl md:text-3xl font-bold">Agenda una reunión</h4>
           <p>
             Completa el siguiente formulario de contacto y un miembro de nuestro
             equipo se pondrá en contacto contigo en breve para discutir cómo
@@ -18,7 +18,7 @@ function Contacto() {
           />
         </div>
 
-        <div className="p-8 w-[60%]">
+        <div className="py-6 md:p-8 w-full md:w-[60%]">
           <Formulario />
         </div>
       </div>

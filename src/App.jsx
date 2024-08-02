@@ -67,6 +67,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Inicio from "./components/Inicio";
 import Footer from "./components/Footer";
 import Servicios from "./Servicios";
+import Whatsapp from "./components/Whatsapp";
 
 function App() {
   return (
@@ -78,6 +79,7 @@ function App() {
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/servicios" element={<Servicios />} />
         </Routes>
+        <Whatsapp />
         <Footer />
       </Router>
     </>
