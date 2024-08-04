@@ -18,31 +18,31 @@ function Servicios() {
         </p>
       </div>
 
-      <div className="flex flex-row flex-wrap items-center justify-center h-auto gap-5 ">
-        <div className="flex flex-col gap-8 w-[40%] md:w-[25%] items-center md:justify-center text-center h-[300px] md:h-[250px] py-10 px-2 md:p-3 border rounded-xl bg-white shadow-xl">
+      <div className="flex flex-col flex-wrap items-center justify-center h-auto gap-5 m-auto md:flex-row w-90px">
+        <div className="flex flex-row  md:flex-col gap-8 w-full md:w-[25%] items-center md:justify-center text-start md:text-center h-[150px] md:h-[250px] p-10 md:px-2 md:p-3 border rounded-xl bg-white shadow-xl">
           <img src="imagen1.svg" alt="" className="w-[80px]" />
           <p>
             Desarrollo, consultoría e implementación de sistema de gestión de
             calidad
           </p>
         </div>
-        <div className="flex flex-col gap-8 w-[40%] md:w-[25%] items-center md:justify-center text-center h-[300px] md:h-[250px] py-10 px-2 md:p-3 border rounded-xl bg-white shadow-xl">
+        <div className="flex flex-row  md:flex-col gap-8 w-full md:w-[25%] items-center md:justify-center text-start md:text-center h-[150px] md:h-[250px] p-10 md:px-2 md:p-3 border rounded-xl bg-white shadow-xl">
           <img src="imagen10.svg" alt="" className="w-[80px]" />
           <p>Acompañamiento en la certificación de normas ISO</p>
         </div>
-        <div className="flex flex-col gap-8 w-[40%] md:w-[25%] items-center md:justify-center text-center h-[300px] md:h-[250px] py-10 px-2 md:p-3 border rounded-xl bg-white shadow-xl">
+        <div className="flex flex-row  md:flex-col gap-8 w-full md:w-[25%] items-center md:justify-center text-start md:text-center h-[150px] md:h-[250px] p-10 md:px-2 md:p-3 border rounded-xl bg-white shadow-xl">
           <img src="imagen9.svg" alt="" className="w-[80px]" />
           <p>Auditorias internas de gestión de calidad</p>
         </div>
-        <div className="flex flex-col gap-8 w-[40%] md:w-[25%] items-center md:justify-center text-center h-[300px] md:h-[250px] py-10 px-2 md:p-3 border rounded-xl bg-white shadow-xl">
+        <div className="flex flex-row  md:flex-col gap-8 w-full md:w-[25%] items-center md:justify-center text-start md:text-center h-[150px] md:h-[250px] p-10 md:px-2 md:p-3 border rounded-xl bg-white shadow-xl">
           <img src="imagen3.svg" alt="" className="w-[80px]" />
           <p>Soporte en el mantenimiento del sistema de gestión</p>
         </div>
-        <div className="flex flex-col gap-8 w-[40%] md:w-[25%] items-center md:justify-center text-center h-[300px] md:h-[250px] py-10 px-2 md:p-3 border rounded-xl bg-white shadow-xl">
+        <div className="flex flex-row  md:flex-col gap-8 w-full md:w-[25%] items-center md:justify-center text-start md:text-center h-[150px] md:h-[250px] p-10 md:px-2 md:p-3 border rounded-xl bg-white shadow-xl">
           <img src="imagen4.svg" alt="" className="w-[80px]" />
           <p>Capacitación y talleres</p>
         </div>
-        <div className="flex flex-col gap-8 w-[40%] md:w-[25%] items-center md:justify-center text-center h-[300px] md:h-[250px] py-10 px-2 md:p-3 border rounded-xl bg-white shadow-xl">
+        <div className="flex flex-row  md:flex-col gap-8 w-full md:w-[25%] items-center md:justify-center text-start md:text-center h-[150px] md:h-[250px] p-10 md:px-2 md:p-3 border rounded-xl bg-white shadow-xl">
           <img src="imagen2.svg" alt="" className="w-[80px]" />
           <p>Mejora continua</p>
         </div>
@@ -52,7 +52,7 @@ function Servicios() {
           <h2 className="text-[#374649] text-3xl font-bold">
             ¿Cómo te acompañamos?
           </h2>
-          <p >
+          <p>
             En un mundo acelerado, nuestro equipo está listo para ayudarte a
             adaptar y optimizar tu empresa, mejorando procesos, la satisfacción
             de empleados y tu relación con los clientes.
